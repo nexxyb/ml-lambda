@@ -1,6 +1,6 @@
 service: ml-model
 
-
+frameworkVersion: '3'
 useDotenv: true
 
 provider:
