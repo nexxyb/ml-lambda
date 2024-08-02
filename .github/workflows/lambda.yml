@@ -30,5 +30,7 @@ jobs:
         run: npm install -g serverless
       - name: Install NPM dependencies
         run: npm install
+      - name: serverless login
+        run: serverless login
       - name: Deploy
         run: sls deploy --stage development --verbose
